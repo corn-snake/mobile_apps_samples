@@ -22,17 +22,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: "Test",
       theme: ThemeData(),
-      home: Home()
-    );
-  }
-}
-
-class Home extends StatelessWidget {
-  const Home({super.key});
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return Scaffold(
+      home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.teal,
           title: Text("AAAAAAAAAAAAAAAAAAAAAAAAA", style: TextStyle(color: Colors.white70)),
@@ -48,21 +38,7 @@ class Home extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextButton.icon(
-                    onPressed: () => showDialog(
-                          context: context,
-                          builder: (context) {
-                            return AlertDialog(
-                              title: Text("weeeeeeee"),
-                              content: Text("txt"),
-                              actions: [
-                                TextButton(
-                                    onPressed: () {
-                                      Navigator.of(context).pop();
-                                    },
-                                    child: Text("Ok"))
-                              ],
-                            );
-                          }),
+                    onPressed: null,
                     style: buttonStyleTex,
                     icon: Icon(Icons.fireplace_outlined),
                     label: Text("buttonup1"),
@@ -119,6 +95,7 @@ class Home extends StatelessWidget {
             ],
           ),
         ),
-      );
+      )
+    );
   }
 }
