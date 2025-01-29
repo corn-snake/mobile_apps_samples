@@ -13,24 +13,6 @@ final buttonStyleElev = ButtonStyle(
     foregroundColor: WidgetStatePropertyAll<Color>(Colors.cyanAccent)
   );
 
-dynamic confirmDialog (String txt, BuildContext context) {
-  return ()=>showDialog(
-                          context: context,
-                          builder: (context) {
-                            return AlertDialog(
-                              title: Text("weeeeeeee"),
-                              content: Text("txt"),
-                              actions: [
-                                TextButton(
-                                    onPressed: () {
-                                      Navigator.of(context).pop();
-                                    },
-                                    child: Text("Ok"))
-                              ],
-                            );
-                          });
-}
-
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
@@ -87,7 +69,7 @@ class Home extends StatelessWidget {
                   ),
                   const SizedBox(width: 10.0, height: 10.0),
                   ElevatedButton(
-                    onPressed: confirmDialog("example", context),
+                    onPressed: null,
                     style: buttonStyleElev,
                     child: Text("upbutton2"),
                   ),
@@ -101,12 +83,12 @@ class Home extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
-                        onPressed: confirmDialog("example", context),
+                        onPressed: null,
                         style: buttonStyleElev,
                         child: Text("ceci n'est pas un boton"),
                       ),
                       const SizedBox(width: 10.0, height: 10.0),
-                      TextButton(onPressed: confirmDialog("example", context), style: buttonStyleTex, child: const Text("textextext"))
+                      TextButton(onPressed: null, style: buttonStyleTex, child: const Text("textextext"))
                     ],
                   )
                 ]
@@ -116,13 +98,13 @@ class Home extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                   TextButton(
-                    onPressed: confirmDialog("example", context),
+                    onPressed: null,
                     style: buttonStyleTex,
                     child: Text("buttondown1"),
                   ),
                   const SizedBox(width: 10.0, height: 10.0),
                   ElevatedButton(
-                    onPressed: confirmDialog("example", context),
+                    onPressed: null,
                     style: buttonStyleElev,
                     child: Wrap(
                       children: [
