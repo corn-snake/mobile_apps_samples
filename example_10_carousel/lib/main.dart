@@ -33,9 +33,9 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(height:80,child: cvh()),
+            SizedBox(height:80,child: cvh()),
             SizedBox(width: 5, height: 25,),
-            Container(height:160,child: cvv()),
+            SizedBox(height:160,child: cvv()),
           ],
         ),
       ),
