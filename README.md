@@ -23,5 +23,20 @@ se separó la app de alertas de la de botones post-facto, por una mala interpret
 
 ### app navegación/páginas = example_6_navigation
 
-## examen = exam_1
+### examen = exam_1
 [tomake: video]
+
+## parcial 2
+### uso de APIs (presentación) = example_7
+[tomame: video]
+
+### menu(exposicion) = example_9_menu
+### lista desplegable (exposicion) = example_8_dropdown
+### carrusel = example_10
+### rating = example_11
+### Cards = example_12
+### App general = example_14
+### lista = example_15
+### validación = example_16
+### Custom Paint = [tomake]
+### proyecto = _[galer.io](https://github.com/corn-snake/galer.io)_
