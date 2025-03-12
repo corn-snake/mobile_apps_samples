@@ -14,3 +14,5 @@ _Combinando también: GestureDetector_
 
 https://github.com/user-attachments/assets/2534bf02-76b6-4c69-a50b-f31714f8573a
 
+A agregar: CustomPaint
+Razón: Me quedé dormido sobre la computadora hasta pasado de media noche. Las alarmas sirvieron para muy poco.
