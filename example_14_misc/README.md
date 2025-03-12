@@ -12,5 +12,5 @@ _Combinando también: GestureDetector_
 8. Container
 9. Text
 
-https://github.com/user-attachments/assets/865ec28c-b8b6-46f4-b190-bc6e29553427
+https://github.com/user-attachments/assets/2534bf02-76b6-4c69-a50b-f31714f8573a
 
