@@ -11,3 +11,6 @@ _Combinando también: GestureDetector_
 7. Center
 8. Container
 9. Text
+
+https://github.com/user-attachments/assets/865ec28c-b8b6-46f4-b190-bc6e29553427
+
