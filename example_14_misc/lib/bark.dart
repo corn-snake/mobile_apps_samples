@@ -1,3 +1,4 @@
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:soundpool/soundpool.dart';
 import 'package:flutter/material.dart';
 
@@ -66,7 +67,9 @@ class _PetDetector extends State<PetDetector> {
               decoration: BoxDecoration(
                 image: DecorationImage(image: NetworkImage(widget.dog), fit: BoxFit.cover),
                 border: Border.all(color: _color, width: 3)
-              ))),
+              ),
+              child:  Center(child: RatingBar.builder(itemBuilder: (context,_)=>Icon(Icons.thumb_up_alt_rounded), onRatingUpdate: (r){}, initialRating: 2.5, glowColor: Colors.amberAccent[800],allowHalfRating: true,unratedColor: Colors.amber[100], updateOnDrag: true, )),
+              )),
     );
   }
 }

@@ -23,11 +23,11 @@ Scaffold Home()=>Scaffold(
     ),
   );
 
-Expanded Body() => Expanded(child: Padding(padding: EdgeInsets.all(20), child: Wrap(children: [
+Padding Body() => Padding(padding: EdgeInsets.all(20), child: Wrap(children: [
   Column(),
   Column(children: [DogPen()]),
   Column()
-],)));
+],));
 
 class DogPen extends StatefulWidget {
   const DogPen({super.key});
