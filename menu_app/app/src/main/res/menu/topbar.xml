@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/plus"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="add"
+        app:showAsAction="always"
+        >
+        <menu
+            android:id="@+id/plusmenu"
+            />
+    </item>
+    <item
+        android:id="@+id/opts"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="config"
+        app:showAsAction="always" >
+        <menu
+            android:id="@+id/wrenchmenu"
+            />
+    </item>
+    <item
+        android:icon="@drawable/green"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:title="Item" />
+    <item
+        android:title="Item" />
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".thingItem"
+    >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thing"
+                    android:id="@+id/thing_title"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type_of_thing"
+                    android:id="@+id/thing_desc"
+                    android:textSize="16dp"
+                    android:textColor="#d0d0d0"
+                    android:textStyle="italic"
+                    android:layout_marginTop="32dp"
+                    />
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/unknown_blu"
+                    android:layout_gravity="right"
+                    android:id="@+id/thing_icon"
+                    />
+        </FrameLayout>
+
+</androidx.cardview.widget.CardView>
