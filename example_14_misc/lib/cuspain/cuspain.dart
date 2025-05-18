@@ -3,6 +3,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class CustomPaintScreen extends StatefulWidget {
+  const CustomPaintScreen({super.key});
+
   @override
   _CustomPaintScreenState createState() => _CustomPaintScreenState();
 }
